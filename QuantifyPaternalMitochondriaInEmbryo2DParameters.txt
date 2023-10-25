@@ -1,0 +1,16 @@
+macroVersion=v2
+RunTime=Date: Tue 27-Dec-2022, Time: 16:53:27
+runMode=Update
+processMode=AllSubFolders
+fileExtension=.nd2
+MinIntensityToMeasure=1200
+EmbryoColor=magenta
+LineWidth=2
+IlastikLocation=C:\Program Files\ilastik-1.4.0b27\ilastik.exe
+IlastikMaxMemoryMB=150000
+IlastikAutoContextClassifier=\\lscf-storage\data\sharonb\Old Ilastik files\AutoContext_ForEmbryo4.ilp
+IlastikAutoContextExtention=_Segmentation Stage 2.h5
+EmbryosRoisSuffix=_EmbryosRoiSet
+erodeEmbryoPixels=15
+applyRollingBallBGS=1
+rollingBallSigma=35
