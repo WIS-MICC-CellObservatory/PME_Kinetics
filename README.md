@@ -23,7 +23,8 @@ Software package: Fiji (ImageJ)
 Workflow language: ImageJ macro
 
 <p align="center">
-<img src="https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/blob/master/PNG/PME-Kinetics.png" width="250" title="control_2">
+<img src=![PME-Kinetics](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/e27ce383-5bfc-4126-a1e7-5179afb8edf4)
+ width="250" title="control_2">
 	<br/> <br/> </p>
      
 ## Workflow
@@ -87,7 +88,8 @@ QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - Parameters used during th
 ## Usage Instructions
 
 <p align="center">
-<img src="https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/blob/master/PNG/GUI.png" width="250" title="control_2">
+<img src=![GUI](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/57662bb3-6067-4de3-a3e9-63c18f0ef64b)
+ width="250" title="control_2">
 	<br/> <br/> </p>
 
 - Set *runMode* to be *Segment* 
