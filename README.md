@@ -85,10 +85,7 @@ QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - Parameters used during th
 
 ## Usage Instructions
 
-<p align="center">
-<img src=![GUI](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/57662bb3-6067-4de3-a3e9-63c18f0ef64b)
- width="250">
-	<br/> <br/> </p>
+![GUI](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/fd2a7b47-11e8-47d1-a17f-31297b1095e0)
 
 - Set *runMode* to be *Segment* 
   
