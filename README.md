@@ -16,14 +16,10 @@ This macro was used in:  <br/> <br/>
 <p align="center"> <strong>Sharon Ben-Hur, Sara Afar, Yoav Politi, Liron Gal, Ofra Golani, Ehud Sivan, Rebecca Haffner-Krausz, Elina Maizenberg, Sima Peretz, Zvi Roth, Dorit Kalo, Nili Dezorella, David Morgenstern, Shmuel Pietrokovski, Keren Yacobi-Sharon, Eli Arama </strong><br/> <br/>
 	</p>
 
-DOI
-
-Software package: Fiji (ImageJ)
-
-Workflow language: ImageJ macro
-
 ![PME-Kinetics](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/d2c0f103-893b-438d-a09d-4b4898afb218)
 
+Software package: Fiji (ImageJ)
+Workflow language: ImageJ macro
      
 ## Workflow
 
