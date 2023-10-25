@@ -22,10 +22,8 @@ Software package: Fiji (ImageJ)
 
 Workflow language: ImageJ macro
 
-<p align="center">
-<img src=![PME-Kinetics](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/e27ce383-5bfc-4126-a1e7-5179afb8edf4)
- width="250">
-	<br/> <br/> </p>
+![PME-Kinetics](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/d2c0f103-893b-438d-a09d-4b4898afb218)
+
      
 ## Workflow
 
