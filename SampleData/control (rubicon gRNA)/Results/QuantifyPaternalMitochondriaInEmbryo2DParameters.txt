@@ -1,0 +1,16 @@
+macroVersion=v2
+RunTime=Date: Thu 02-Nov-2023, Time: 15:59:23
+runMode=Segment
+processMode=AllSubFolders
+fileExtension=.nd2
+MinIntensityToMeasure=1200
+EmbryoColor=magenta
+LineWidth=2
+IlastikLocation=C:\Program Files\ilastik-1.4.0-gpu\ilastik.exe
+IlastikMaxMemoryMB=150000
+IlastikAutoContextClassifier=D:\Ofra_Sync\GitHub\CellObservatoryPublicRepoOnGithub\PME_Kinetics\AutoContext_ForEmbryo4.ilp
+IlastikAutoContextExtention=_Segmentation Stage 2.h5
+EmbryosRoisSuffix=_EmbryosRoiSet
+erodeEmbryoPixels=15
+applyRollingBallBGS=1
+rollingBallSigma=35

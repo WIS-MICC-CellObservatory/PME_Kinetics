@@ -1,0 +1,3 @@
+aFileName	aSegMode	aEmbryoName	aTotalEmbryoArea	aTotInt	aMeanInt	aFracAreaIntAboveTh	aTotIntAboveTh	aMeanIntAboveTh	aAreaInMito	aTotIntInMito	aMeanIntInMito	aAreaInNonMito	aTotIntInNonMito	aMeanIntInNonMito	aMeanIntInMitoMinusNonMito
+0 AEL 18+19 use only 18 (left embryo)	Auto	Embryo_1	63545.172	515049650	4360.762	0.006	31594	0.267	3.766	31594	4513.429	63541.406	515018056	4360.753	152.675
+0 AEL 18+19 use only 18 (left embryo)	Auto	Embryo_2	63993.341	522687138	4394.434	5.754	52734006	443.355	3682.187	52734006	7705.144	60311.153	469953132	4192.304	3512.840
