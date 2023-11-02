@@ -16,6 +16,10 @@ This macro was used in:  <br/> <br/>
 <p align="center"> <strong>Sharon Ben-Hur, Sara Afar, Yoav Politi, Liron Gal, Ofra Golani, Ehud Sivan, Rebecca Haffner-Krausz, Elina Maizenberg, Sima Peretz, Zvi Roth, Dorit Kalo, Nili Dezorella, David Morgenstern, Shmuel Pietrokovski, Keren Yacobi-Sharon, Eli Arama </strong><br/> <br/>
 	</p>
 
+<p align="center">
+<img src="https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/blob/master/PNG/PME-Kinetics.png" width="500" title="Figure">
+</p>
+
 ![PME-Kinetics](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/d2c0f103-893b-438d-a09d-4b4898afb218)
 
 Software package: Fiji (ImageJ)
@@ -80,6 +84,10 @@ QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - Parameters used during th
  - Click “Apply changes”
 
 ## Usage Instructions
+
+<p align="center">
+<img src="https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/blob/master/PNG/GUI.png" width="500" title="GUI">
+</p>
 
 ![GUI](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/fd2a7b47-11e8-47d1-a17f-31297b1095e0)
 
