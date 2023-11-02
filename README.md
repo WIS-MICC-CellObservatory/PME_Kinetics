@@ -142,5 +142,5 @@ When done with all corrections make sure to
   "FN_EmbryosRoiSet_Manual.zip", using correct file name is crucial
 
 ## Sample data
-Sample files are provided for testing the macro, togetehr with the ilastik classifier used for the analysis (AutoContext_ForEmbryo4.zip  unzip the file and use AutoContext_ForEmbryo4.ilp).
+Sample files are provided for testing the macro, togetehr with the ilastik classifier used for the analysis (AutoContext_ForEmbryo4.zip  unzip the file and use AutoContext_ForEmbryo4.ilp) and the related Results files.
  
