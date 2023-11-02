@@ -20,8 +20,6 @@ This macro was used in:  <br/> <br/>
 <img src="https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/blob/master/PNG/PME-Kinetics.png" width="500" title="Figure">
 </p>
 
-![PME-Kinetics](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/d2c0f103-893b-438d-a09d-4b4898afb218)
-
 Software package: Fiji (ImageJ)
 Workflow language: ImageJ macro
      
@@ -88,8 +86,6 @@ QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - Parameters used during th
 <p align="center">
 <img src="https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/blob/master/PNG/GUI.png" width="500" title="GUI">
 </p>
-
-![GUI](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/assets/6791838/fd2a7b47-11e8-47d1-a17f-31297b1095e0)
 
 - Set *runMode* to be *Segment* 
   
