@@ -70,11 +70,14 @@ Overlay colors can be controled by EmbryoColor and IntensityColor
 AllDetailedResults_test.xls - Table with one line for each embryo in each image file - for each image folder
 QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - Parameters used during the latest run
 
-## Dependencies
+## Installation and Dependencies
 
- Fiji Ilastik plugin: 
+ 1. Install Fiji:  https://imagej.net/software/fiji/
+    We used the Windows-64 version, but it should work withe other Fiji versions
+     
+ 2. Install Fiji Ilastik plugin: 
 
- To install it, within Fiji :
+ To install it, open Fiji and within Fiji :
  - Help=>Update
  - Click “Manage Update sites”
  - Check “ilastik”
@@ -142,5 +145,5 @@ When done with all corrections make sure to
   "FN_EmbryosRoiSet_Manual.zip", using correct file name is crucial
 
 ## Sample data
-Sample files are provided for testing the macro, togetehr with the ilastik classifier used for the analysis (AutoContext_ForEmbryo4.zip  unzip the file and use AutoContext_ForEmbryo4.ilp) and the related Results files.
+Sample files are provided for testing the macro, togetehr with the related Results files (within Results subfolder of each sample data folder) and the ilastik classifier used for the analysis (AutoContext_ForEmbryo4.zip  unzip the file and use AutoContext_ForEmbryo4.ilp).
  
