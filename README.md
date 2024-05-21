@@ -11,9 +11,9 @@ Each image includes one or two embryos.
 
 This macro was used in:  <br/> <br/>
 
-<p align="center"> <strong> Egg MVBs mediate an antimicrobial pathway to degrade the paternal mitochondria after fertilization </strong><br/> <br/> </p>
+<p align="center"> <strong> Egg MVBs elicit an LC3-associated phagocytosis-like pathway to degrade paternal mitochondria after fertilization </strong><br/> <br/> </p>
 	
-<p align="center"> <strong>Sharon Ben-Hur, Sara Afar, Yoav Politi, Liron Gal, Ofra Golani, Ehud Sivan, Rebecca Haffner-Krausz, Elina Maizenberg, Sima Peretz, Zvi Roth, Dorit Kalo, Nili Dezorella, David Morgenstern, Shmuel Pietrokovski, Keren Yacobi-Sharon, Eli Arama </strong><br/> <br/>
+<p align="center"> <strong>Sharon Ben-Hur, Shoshana Sernik, Sara Afar, Alina Kolpakova, Yoav Politi, Liron Gal, Anat Florentin, Ofra Golani, Ehud Sivan, Nili Dezorella, David Morgenstern, Shmuel Pietrokovski, Eyal Schejter, Keren Yacobi-Sharon, Eli Arama </strong><br/> <br/>
 	</p>
 
 <p align="center">
