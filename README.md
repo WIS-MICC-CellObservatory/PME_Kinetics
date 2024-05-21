@@ -52,11 +52,6 @@ This will use the manually corrected segmentation if this is available and the o
 
 ## Output
 
-- Save results:
- 	+ Detailed results tables (for cells and for edges) + overlay for each image
-	+ Summary table with one line for each embryo in each image, and average values 
-- Save the active macro parameters in a text file in the Results folder
-
 For each input image FN, the following output files are saved in ResultsSubFolder under the input folder
 - FN_Ch1Overlay.tif 	- the original brightfield channel with overlay of the segmented Embryos in magenta (EmbryoColor)
 - FN_Ch2_AboveTh.tif - the flourescnce channel after background subtraction and where all pixels below MinIntensityToMeasureare set to 0  
