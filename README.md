@@ -17,7 +17,7 @@ This macro was used in:  <br/> <br/>
 	</p>
 
 <p align="center">
-![PME Kinetics](https://github.com/WIS-MICC-CellObservatory/PME_Kinetics/blob/master/PNG/PME-Kinetics.png)
+<img src="PNG/PME-Kinetics.png" alt="PME Kinetics" width="500" title="Figure">
 </p>
 
 Software package: Fiji (ImageJ)
