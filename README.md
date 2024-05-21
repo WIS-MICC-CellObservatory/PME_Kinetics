@@ -17,7 +17,7 @@ This macro was used in:  <br/> <br/>
 	</p>
 
 <p align="center">
-<img src="PNG/PME-Kinetics.png" alt="PME Kinetics" width="500" title="Figure">
+<img src="PNG/PME-Kinetics.png" alt="PME Kinetics" width="500" title="PME Kinetics">
 </p>
 
 Software package: Fiji (ImageJ)
