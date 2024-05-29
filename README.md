@@ -121,7 +121,7 @@ The above automatic process segment correctly most of the embryos.
 Further manual correction is supported by switching from *Segment* Mode to *Update* Mode.   
 
 ### To start manual correction: 
-- Open the original image (FN) (from the parent image folder, and not from the Results subfolder)
+- Open the original image (FN). This is the (nd2) file from the parent image folder, and not from the Results subfolder.
 - make sure there is no RoiManager open in Fiji. The program will open a new RoiManager window for each image when you open it.
 - drag-and-drop the "FN_EmbryosRoiSet.zip" into Fiji main window. The extension will be .roi if is only one embryo in the image.
 - This will show the ROI in magenta on each embryo in the original image that you opened. Remember that the ROI does not extend to the edge of each embryo, rather it begins about 15 pixels in from the edge.If you correct the ROI to extend to the edge of the embryo, the program will use your new manually designated ROI, so do not manually extend the ROI to the edge of the embryo. 
