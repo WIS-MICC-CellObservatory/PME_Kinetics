@@ -50,21 +50,6 @@ If the embryo segmentation is not good enouh for some of the embryos,
 you can use manually correct the embryo segmentation (see below) and and run the macro in *update* mode. 
 This will use the manually corrected segmentation if this is available and the original automatic segmentation for all other embryos
 
-## Output
-
-For each input image FN, the following output files are saved in ResultsSubFolder under the input folder
-- FN_Ch1Overlay.tif 	- the original brightfield channel with overlay of the segmented Embryos in magenta (EmbryoColor)
-- FN_Ch2_AboveTh.tif - the flourescnce channel after background subtraction and where all pixels below MinIntensityToMeasureare set to 0  
-- FN_Ch2Overlay.tif 	- the original flourescnce channel with overlay of the segmented Embryos in magenta (EmbryoColor), and PME signal above threshold in yellow (IntensityColor)  
-- FN_DetailedResults.xls - an Excel file with one line for each embryo in the image file. Embryos are numbered according to their position along the y axis of the photo, not along the x. So, if you labeled the left most embryo as 1 in your file name, it might not be 1 in the Excel file. To check which embryo is which, open the file: FN_Ch1Overlay.tif or FN_Ch1Overlay_Manual.tif (if you corrected the ROI for any of the embryos in this image). In this image, each embryo is numbered and the numbering corresponds to the numbering in the excel sheet.  
-- FN_EmbryosRoiSet.zip   - the embryo segments used for measurements - this file can be used for manually update 
-- FN__Segmentation Stage 2.h5  - the Crystal Domain segments used for measurements
-
-Overlay colors can be controled by EmbryoColor and IntensityColor
-
-AllDetailedResults_test.xls - a combined results table for all the embryos in all the images. It has one line for each embryo in each image file - for each image folder
-QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - This file record all the script parameters used during the latest run. If you want to test the script with different parameters, you can rename the Results folder to save the results for each parameter settings.
-
 ## Installation and Dependencies
 
  1. Install Fiji:  https://imagej.net/software/fiji/
@@ -80,7 +65,16 @@ QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - This file record all the 
  - Click “Apply changes”
 
 3. Install Ilastik from https://www.ilastik.org/ and follow installation instructions.
-   We trained the classifier with version 1.3.3post3, we tested also that it can be applied with version 1.4.0 
+   We trained the classifier with version 1.3.3post3, we tested also that it can be applied with version 1.4.0
+
+4. Download the Sample data provided here to test that the macro is working
+   
+5. Download AutoContext_ForEmbryo4.zip file and unzip it. This is the ilastik classifier we trained for embryo segmentation.
+   select its location, when asked about *ilastik Embryo classifier* (see below)  
+   For your own data, it is advised that you train your own classifier. see ilastik documentation for further instructions. 
+
+## Sample data
+Sample files are provided for testing the macro, togetehr with the related Results files (within Results subfolder of each sample data folder) and the ilastik classifier used for the analysis (AutoContext_ForEmbryo4.zip  unzip the file and use AutoContext_ForEmbryo4.ilp).
 
 ## Usage Instructions
 
@@ -157,6 +151,18 @@ When done with all corrections make sure to
 - from the RoiManager, click "More" and then "Save" , save the updated file into a file named as the original Roi file with suffix "_Manual":  
   "FN_EmbryosRoiSet_Manual.zip", using correct file name is crucial
 
-## Sample data
-Sample files are provided for testing the macro, togetehr with the related Results files (within Results subfolder of each sample data folder) and the ilastik classifier used for the analysis (AutoContext_ForEmbryo4.zip  unzip the file and use AutoContext_ForEmbryo4.ilp).
- 
+## Output
+
+For each input image FN, the following output files are saved in ResultsSubFolder under the input folder
+- FN_Ch1Overlay.tif 	- the original brightfield channel with overlay of the segmented Embryos in magenta (EmbryoColor)
+- FN_Ch2_AboveTh.tif - the flourescnce channel after background subtraction and where all pixels below MinIntensityToMeasureare set to 0  
+- FN_Ch2Overlay.tif 	- the original flourescnce channel with overlay of the segmented Embryos in magenta (EmbryoColor), and PME signal above threshold in yellow (IntensityColor)  
+- FN_DetailedResults.xls - an Excel file with one line for each embryo in the image file. Embryos are numbered according to their position along the y axis of the photo, not along the x. So, if you labeled the left most embryo as 1 in your file name, it might not be 1 in the Excel file. To check which embryo is which, open the file: FN_Ch1Overlay.tif or FN_Ch1Overlay_Manual.tif (if you corrected the ROI for any of the embryos in this image). In this image, each embryo is numbered and the numbering corresponds to the numbering in the excel sheet.  
+- FN_EmbryosRoiSet.zip   - the embryo segments used for measurements - this file can be used for manually update 
+- FN__Segmentation Stage 2.h5  - the Crystal Domain segments used for measurements
+
+Overlay colors can be controled by EmbryoColor and IntensityColor
+
+AllDetailedResults_test.xls - a combined results table for all the embryos in all the images. It has one line for each embryo in each image file - for each image folder
+QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - This file record all the script parameters used during the latest run. If you want to test the script with different parameters, you can rename the Results folder to save the results for each parameter settings.
+
