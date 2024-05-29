@@ -62,8 +62,8 @@ For each input image FN, the following output files are saved in ResultsSubFolde
 
 Overlay colors can be controled by EmbryoColor and IntensityColor
 
-AllDetailedResults_test.xls - Table with one line for each embryo in each image file - for each image folder
-QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - Parameters used during the latest run
+AllDetailedResults_test.xls - a combined results table for all the embryos in all the images. It has one line for each embryo in each image file - for each image folder
+QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - This file record all the script parameters used during the latest run. If you want to test the script with different parameters, you can rename the Results folder to save the results for each parameter settings.
 
 ## Installation and Dependencies
 
@@ -78,6 +78,9 @@ QuantifyPaternalMitochondriaInEmbryo2DParameters.txt - Parameters used during th
  - Check “ilastik”
  - Click “Close”
  - Click “Apply changes”
+
+3. Install Ilastik from https://www.ilastik.org/ and follow installation instructions.
+   We trained the classifier with version 1.3.3post3, we tested also that it can be applied with version 1.4.0 
 
 ## Usage Instructions
 
@@ -102,11 +105,10 @@ You will be presented with the following window:
   + *AllSubfolders* - prompt the user to select a folder with subfoldrs of images, and process all images
   
 - Choos ethe proper file extension. For Nikin images, the file extension should be .d2 
-- select Iastik location and Ilastik classifier
+- select ilastik location (ilastik.exe file from the folder where you installed ilastik) and Ilastik classifier (for example AutoContext_ForEmbryo4.ilp) 
 - set parameters - see description above
 - click *OK*
-- use the quality-control files to careful inspect of results of all files, especially pay attention to PME signal segmentation and embryo segmentation.
-- Once the program is done running, check each image to make sure the ROI for each embryo that you want to use is correct. 
+- Once the program is done running, use the quality-control output overlay files to careful inspect of results of **all** images, especially pay attention to PME signal segmentation and make sure the ROI for each embryo that you want to use is correct.
 - Manually correct embryos Rois if needed (see below) and Save the corrected Rois into FN_RoiSet_Manual.zip
 - if any manual correction was done, run the macro again, set *runMode* to be *Update* , 
   This will use the manually corrected segmentation if this is available and the original automatic segmentation for all other embryos
@@ -124,7 +126,7 @@ Further manual correction is supported by switching from *Segment* Mode to *Upda
 - Open the original image (FN). This is the (nd2) file from the parent image folder, and not from the Results subfolder.
 - make sure there is no RoiManager open in Fiji. The program will open a new RoiManager window for each image when you open it.
 - drag-and-drop the "FN_EmbryosRoiSet.zip" into Fiji main window. The extension will be .roi if is only one embryo in the image.
-- This will show the ROI in magenta on each embryo in the original image that you opened. Remember that the ROI does not extend to the edge of each embryo, rather it begins about 15 pixels in from the edge.If you correct the ROI to extend to the edge of the embryo, the program will use your new manually designated ROI, so do not manually extend the ROI to the edge of the embryo. 
+- This will show the ROI in magenta on each embryo in the original image that you opened. Remember that the ROI does not extend to the edge of each embryo, rather it begins *erodeEmbryoPixels* pixels in from the edge. If you correct the ROI to extend to the edge of the embryo, the program will use your new manually designated ROI, so do not manually extend the ROI to the edge of the embryo. 
 - in RoiManager: make sure that "Show All" is selected. Ususaly it is more conveinient to unselect Labels 
   
 ### Select A ROI
@@ -137,8 +139,8 @@ Further manual correction is supported by switching from *Segment* Mode to *Upda
   
 ### Fix segmentation error 
 - select a ROI
-- you can update it eg. by using the brush tool. Right click on the box in the menu bar that is second from the left and select: “Selection Brush Tool”. (deselecting "Show All" may be more convnient) 
-- Hold the *Shift* key down and it will be added to the existing selection. Hold down the *Alt* key and it will be subracted from the existing selection
+- you can update it by any ROI tool, for example using the brush tool. Right click on the box in the menu bar that is second from the left and select: “Selection Brush Tool”. (hiding the Rois from the RoiManager by deselecting "Show All", may be convnient at this stage) 
+- When using the brush tool, hold down the *Shift* key to add region to the existing selection. Hold down the *Alt* key to subract from the existing selection
 - click "Update" in the ROI manager to save the new ROI you created.
   
 - otherwise you can delete the ROI (see above) and draw another one instead (see below)
