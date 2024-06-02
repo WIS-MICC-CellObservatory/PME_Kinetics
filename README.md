@@ -73,6 +73,8 @@ This will use the manually corrected segmentation if this is available and the o
    select its location, when asked about *ilastik Embryo classifier* (see below)  
    For your own data, it is advised that you train your own classifier. see ilastik documentation for further instructions. 
 
+Installation takes approximately 30min.
+
 ## Sample data
 Sample files are provided for testing the macro, togetehr with the related Results files (within Results subfolder of each sample data folder) and the ilastik classifier used for the analysis (AutoContext_ForEmbryo4.zip  unzip the file and use AutoContext_ForEmbryo4.ilp).
 
@@ -111,7 +113,8 @@ You will be presented with the following window:
 	o	You will have an Excel sheet of the original results before manual correction. You will also have another excel sheet after running the program again with the RunMode set to Update. The embryos that did not have their ROIs changed will have the same results in both of these Excel sheets. 
 - After running the program, a new subfolder will appear in each folder that you ran called “Results”. Please see the “Output” section above for details on the contents of this folder.
 
- 
+Processing a single image takes about 3min on ... 
+
 ##  Manual Correction
 The above automatic process segment correctly most of the embryos. 
 Further manual correction is supported by switching from *Segment* Mode to *Update* Mode.   
